@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Log files
+*.log
+h*.log
+*.log.*
+
+# Results and data
+results/
+data/
+*.csv
+*.json
+!cifar_traffic_profile.csv
+!cifar_profile.json
+
+# Archives
+*.zip
+*.tar.gz
+*.tar
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Mininet specific
+mnexec
+*.1
+
+# Temporary files
+*.save
+*.tmp
+*.bak
+
+# Large subdirectories (external dependencies)
+# Uncomment if you don't want to track these:
+# mininet/
+# ryu/
+# pox/
+# openflow/
+# oftest/
+# oflops/
+
+# Project specific
+cifar_profile_plots/
+*.stats_*.log
+ping.log
+iperf_*.log
+*_client.log
+*_server.log
+
